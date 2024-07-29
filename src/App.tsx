@@ -1,7 +1,13 @@
+import {Navbar, Player, Playlist} from './components';
+
 export function App() {
   return (
     <>
-      <h1>This is the App component</h1>
+      <Navbar />
+      <main>
+        <Playlist />
+        <Player />
+      </main>
     </>
   );
 }

@@ -1,0 +1,36 @@
+.playlist-item {
+  width: 100%;
+  height: 7rem;
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  border-bottom: 1px dotted firebrick;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-size: 2rem;
+}
+
+.info-container {
+  position: relative;
+  right: 5rem;
+  align-self: baseline;
+}
+
+.info-container h6 {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Edu AU VIC WA NT Hand';
+}
+
+.info-container p {
+  font-size: 1rem;
+  color: black;
+  font-family: 'Edu AU VIC WA NT Hand', cursive;
+}
+
+.active-song {
+  border: 4px solid green;
+}
