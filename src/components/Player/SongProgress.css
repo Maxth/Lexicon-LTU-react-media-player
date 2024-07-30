@@ -1,0 +1,25 @@
+.song-progress {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-outline {
+  border-radius: 1rem;
+  width: 80%;
+  height: 1rem;
+  border: 2px solid white;
+}
+
+.progress {
+  border-radius: 1rem;
+  height: 100%;
+  width: 26%;
+  background-color: white;
+}
+
+p {
+  color: white;
+  font-family: 'Edu AU VIC WA NT Hand', cursive;
+}

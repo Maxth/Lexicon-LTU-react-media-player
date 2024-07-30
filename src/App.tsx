@@ -1,4 +1,5 @@
 import {Navbar, Player, Playlist} from './components';
+import {songs} from './data';
 
 export function App() {
   return (
@@ -6,7 +7,7 @@ export function App() {
       <Navbar />
       <main>
         <Playlist />
-        <Player />
+        <Player song={songs[1]} />
       </main>
     </>
   );

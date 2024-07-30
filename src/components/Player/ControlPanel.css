@@ -1,0 +1,17 @@
+.control-panel {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control-btns {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play {
+  font-size: 4rem;
+}

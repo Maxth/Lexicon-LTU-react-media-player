@@ -1,0 +1,30 @@
+.now-playing {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+span {
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info h6 {
+  font-size: 1.5rem;
+  color: tan;
+}
+
+.info p {
+  font-size: 1rem;
+  color: white;
+}
+
+.info * {
+  font-family: 'Edu AU VIC WA NT Hand';
+}
